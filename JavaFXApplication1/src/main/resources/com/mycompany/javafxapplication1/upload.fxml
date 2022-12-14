@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="com.mycompany.javafxapplication1.UploadController">
+   <children>
+      <Circle fill="DODGERBLUE" layoutX="69.0" layoutY="71.0" radius="42.0" stroke="#e4e3e3" strokeType="INSIDE" />
+      <Button layoutX="480.0" layoutY="62.0" mnemonicParsing="false" text="Download" />
+      <Button layoutX="480.0" layoutY="101.0" mnemonicParsing="false" text="Download" />
+      <Button layoutX="480.0" layoutY="140.0" mnemonicParsing="false" text="Download" />
+      <Button layoutX="480.0" layoutY="179.0" mnemonicParsing="false" text="Download" />
+      <Button layoutX="300.0" layoutY="243.0" mnemonicParsing="false" text="Upload new file" />
+   </children>
+</AnchorPane>
