@@ -7,14 +7,22 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="com.mycompany.javafxapplication1.UploadController">
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.javafxapplication1.UploadController">
    <children>
-      <Circle fill="DODGERBLUE" layoutX="69.0" layoutY="71.0" radius="42.0" stroke="#e4e3e3" strokeType="INSIDE" />
-      <Button layoutX="480.0" layoutY="62.0" mnemonicParsing="false" text="Download" />
-      <Button layoutX="480.0" layoutY="101.0" mnemonicParsing="false" text="Download" />
-      <Button layoutX="480.0" layoutY="140.0" mnemonicParsing="false" text="Download" />
-      <Button layoutX="480.0" layoutY="179.0" mnemonicParsing="false" text="Download" />
-      <Button layoutX="300.0" layoutY="243.0" mnemonicParsing="false" text="Upload new file" />
+      <Circle fill="DODGERBLUE" layoutX="83.0" layoutY="85.0" radius="56.0" stroke="#e4e3e3" strokeType="INSIDE" />
+      <Button fx:id="downloadABtn" layoutX="314.0" layoutY="64.0" mnemonicParsing="false" onAction="#downloadABtnHandler" text="Download" />
+      <Button fx:id="downloadBBtn" layoutX="314.0" layoutY="103.0" mnemonicParsing="false" onAction="#downloadBBtnHandler" text="Download" />
+      <Button fx:id="downloadCBtn" layoutX="314.0" layoutY="142.0" mnemonicParsing="false" onAction="#downloadCBtnHandler" text="Download" />
+      <Button fx:id="downloadDBtn" layoutX="314.0" layoutY="181.0" mnemonicParsing="false" onAction="#downloadDBtnHandler" text="Download" />
+      <Button fx:id="uploadBtn" layoutX="227.0" layoutY="255.0" mnemonicParsing="false" onAction="#uploadBtnHandler" text="Upload" />
+      <Label fx:id="fileA" layoutX="203.0" layoutY="69.0" text="File Name A" />
+      <Label fx:id="fileB" layoutX="203.0" layoutY="108.0" text="File Name B" />
+      <Label fx:id="fileC" layoutX="203.0" layoutY="148.0" text="File Name C" />
+      <Label fx:id="fileD" layoutX="203.0" layoutY="186.0" text="File Name D" />
+      <Button fx:id="deleteABtn" layoutX="415.0" layoutY="64.0" mnemonicParsing="false" onAction="#deleteABtnHandler" text="Delete" />
+      <Button fx:id="deleteBBtn" layoutX="415.0" layoutY="103.0" mnemonicParsing="false" onAction="#deleteBBtnHandler" text="Delete" />
+      <Button fx:id="deleteCBtn" layoutX="415.0" layoutY="143.0" mnemonicParsing="false" onAction="#deleteCBtnHandler" text="Delete" />
+      <Button fx:id="downloadABtn1111" layoutX="415.0" layoutY="181.0" mnemonicParsing="false" onAction="#downloadABtnHandler" text="Delete" />
+      <Label fx:id="uploadfile" layoutX="123.0" layoutY="260.0" text="Upload File" />
    </children>
 </AnchorPane>
